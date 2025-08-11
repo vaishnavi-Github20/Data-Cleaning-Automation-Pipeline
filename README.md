@@ -46,12 +46,19 @@ def clean_retail_data(input_file, output_file):
     
 # Steps Performed:
 ✔ Column Standardization – Lowercase, underscores, strip spaces
+
 ✔ Date Conversion – Convert to datetime format
+
 ✔ Numeric Conversion – Median imputation for invalid quantity & price_per_unit
+
 ✔ Feature Engineering – total_spent = quantity × price_per_unit
+
 ✔ Text Cleaning – Standardized formatting for text fields
+
 ✔ Missing Value Handling – Fill with "Unknown" or median
+
 ✔ Duplicate Removal – Drop exact duplicates
+
 ✔ Output Generation – Save cleaned dataset as CSV
 
 ## 🚀 How to Run
