@@ -64,6 +64,7 @@ def clean_retail_data(input_file, output_file):
 ## 🚀 How to Run
 # 1️⃣ Clone the Repository
 git clone https://github.com/yourusername/retail-data-cleaning-pipeline.git
+
 cd retail-data-cleaning-pipeline
 
 # 2️⃣ Run the Script
@@ -71,6 +72,7 @@ python cleaning_pipeline.py
 
 # 3️⃣ Output
 Input: retail_store_sales.csv
+
 Output: retail_store_sales_cleaned.csv
 
 ## 💼 Use Cases
