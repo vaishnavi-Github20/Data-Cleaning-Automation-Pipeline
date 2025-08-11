@@ -1,12 +1,12 @@
-🛠 Retail Sales Data Cleaning & Automation Pipeline
+## 🛠 Retail Sales Data Cleaning & Automation Pipeline
 
 
 
-📌 Project Overview
+## 📌 Project Overview
 This project automates the cleaning and transformation of messy, multi-source retail sales data using Python, Pandas, and NumPy.
 It prepares raw data for dashboards, analytics, and machine learning by standardizing column names, handling missing values, converting data types, removing duplicates, and creating new calculated fields.
 
-📂 Project Files
+## 📂 Project Files
 File	Description
 cleaning_pipeline.py	Main automation script for cleaning the dataset.
 cleaning_pipeline.ipynb	Development/testing notebook.
@@ -14,7 +14,7 @@ retail_store_sales.csv	Raw dataset (sample retail transaction data).
 retail_store_sales_cleaned.csv	Cleaned dataset output.
 Data Cleaning & Automation Documentation.pdf	Detailed documentation of the project.
 
-📊 Dataset Overview
+## 📊 Dataset Overview
 - Raw Data File: retail_store_sales.csv
 
 - Output File: retail_store_sales_cleaned.csv
@@ -23,7 +23,7 @@ Data Cleaning & Automation Documentation.pdf	Detailed documentation of the proje
 
 - Industry Use Case: Retail / E-commerce
 
-Column Name	Description
+## Column Name	Description
  transaction_date |	Date of purchase |
 | quantity |	Number of items bought |
 | price_per_unit |	Price of each item |
@@ -31,20 +31,20 @@ Column Name	Description
 | location |	Store or delivery location |
 | payment_method |	Payment type (Cash, Card, UPI, etc.) |
 
-⚙️ Tech Stack
+## ⚙️ Tech Stack
 - Language: Python
 
 - Libraries: Pandas, NumPy
 
 - Tools: Jupyter Notebook, CLI Execution
 
-🔄 Data Cleaning Workflow
+## 🔄 Data Cleaning Workflow
 The cleaning logic is implemented in:
 
 def clean_retail_data(input_file, output_file):
     ...
     
-Steps Performed:
+# Steps Performed:
 ✔ Column Standardization – Lowercase, underscores, strip spaces
 ✔ Date Conversion – Convert to datetime format
 ✔ Numeric Conversion – Median imputation for invalid quantity & price_per_unit
@@ -54,19 +54,19 @@ Steps Performed:
 ✔ Duplicate Removal – Drop exact duplicates
 ✔ Output Generation – Save cleaned dataset as CSV
 
-🚀 How to Run
-1️⃣ Clone the Repository
+## 🚀 How to Run
+# 1️⃣ Clone the Repository
 git clone https://github.com/yourusername/retail-data-cleaning-pipeline.git
 cd retail-data-cleaning-pipeline
 
-2️⃣ Run the Script
+# 2️⃣ Run the Script
 python cleaning_pipeline.py
 
-3️⃣ Output
+# 3️⃣ Output
 Input: retail_store_sales.csv
 Output: retail_store_sales_cleaned.csv
 
-💼 Use Cases
+## 💼 Use Cases
 - Retail / E-commerce reporting & analytics
 
 - Automated pre-processing before creating dashboards in Tableau or Power BI
@@ -75,7 +75,7 @@ Output: retail_store_sales_cleaned.csv
 
 - Standardizing multi-source transactional data
 
-🏆 Skills Demonstrated
+## 🏆 Skills Demonstrated
 - Automated Data Cleaning
 
 - Handling Missing & Corrupt Data
@@ -86,7 +86,7 @@ Output: retail_store_sales_cleaned.csv
 
 - Reusable Pipeline Development
 
-📬 Contact
+## 📬 Contact
 Vaishnavi Ganeshkar
 📧 vaishnaviganeshkar15@gmail.com
 🔗 LinkedIn
